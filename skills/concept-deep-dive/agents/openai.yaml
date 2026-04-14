@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept Deep Dive"
+  short_description: "Research a concept deeply and save the report."
+  default_prompt: "Use $concept-deep-dive to research Honest Agent and save the report in this project."

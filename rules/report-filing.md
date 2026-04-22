@@ -6,7 +6,9 @@
 
 ```text
 concepts/<concept-slug>/
-  reports/
+  reports/                             # 调研报告
+  share-zh.md                          # 中文分享文章（Learn in Public）
+  share-en.md                          # 英文分享文章（Learn in Public）
 ```
 
 只有真的需要补充材料时，才额外创建：
@@ -19,7 +21,7 @@ concepts/<concept-slug>/assets/
 ## 报告命名
 
 - 主报告路径：`concepts/<concept-slug>/reports/YYYY-MM-DD-deep-dive.md`
-- 同一天重复生成时，追加版本号：`YYYY-MM-DD-deep-dive-v2.md`
+- 不使用版本号后缀（不创建 v2、v3 等文件），后续问答和补充内容直接更新到原报告中
 - `concept-slug` 一旦建立，后续优先复用，不随意改名
 
 ## Frontmatter

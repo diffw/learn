@@ -16,12 +16,17 @@
 
 ## 路由规则
 
-- 当用户表达“学习 / 调研 / 深挖 / 理解 / 比较一个概念、方法、框架、模式、协议、工作流、心智模型”时：
-  1. 先读 `rules/research-workflow.md`
-  2. 再读 `rules/source-quality.md`
-  3. 再读 `rules/report-style.md`
-  4. 再读 `rules/report-filing.md`
-  5. 最后打开 `skills/concept-deep-dive/SKILL.md`
+- 当用户表达”学习 / 了解 / 调研 / 深潜 / deep dive / explain / 研究 / 对比 / 分析 / 理解 / 搞懂 / 弄清 / 解释 / 比较 / 探索 / 探究 / 掌握 / study / research / compare / investigate / 深挖 / 什么是 / 系统学习 / 深入了解”等意图，涉及一个概念、方法、框架、模式、协议、工作流、心智模型时：
+  1. **必须**先读 `rules/research-workflow.md`
+  2. **必须**再读 `rules/source-quality.md`
+  3. **必须**再读 `rules/report-style.md`
+  4. **必须**再读 `rules/report-filing.md`
+  5. **必须**再读 `rules/writing-style.md`
+  6. **必须**再读 `rules/share-article-guide.md`
+  7. **必须**最后打开 `skills/concept-deep-dive/SKILL.md`
+  8. **禁止**在完成上述 1-7 步之前直接回复用户的学习请求
+  9. **必须**先执行 Step 2（询问用户动机），等用户回答后才开始研究
+- 当用户要求生成分享文章时，读 `rules/writing-style.md` + `rules/share-article-guide.md`。
 - 当任务只是整理、重命名、搬运、归档已有报告时，只读 `rules/report-filing.md`。
 - 不要默认递归扫描整个 `skills/`；只有在路由已命中后再打开对应 skill。
 
